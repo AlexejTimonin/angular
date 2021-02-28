@@ -76,7 +76,7 @@ and display the `HeroesComponent` when the URL is something like `localhost:4200
 
 ### `RouterModule.forRoot()`
 
-The `@NgModule` metadata initializes the router and starts it listening for browser location changes.
+The `@NgModule` metadata initializes the router and starts listening for browser location changes.
 
 The following line adds the `RouterModule` to the `AppRoutingModule` `imports` array and
 configures it with the `routes` in one step by calling
