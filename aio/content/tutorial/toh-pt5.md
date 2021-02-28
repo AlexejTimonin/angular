@@ -147,8 +147,8 @@ The revised `AppComponent` template looks like this:
 <code-example path="toh-pt5/src/app/app.component.html" region="heroes" header="src/app/app.component.html (heroes RouterLink)">
 </code-example>
 
-A [`routerLink` attribute](#routerlink) is set to `"/heroes"`,
-the string that the router matches to the route to `HeroesComponent`.
+The [`routerLink` attribute](#routerlink) is set to string `"/heroes"`,
+which the router will match to `HeroesComponent` route.
 The `routerLink` is the selector for the [`RouterLink` directive](/api/router/RouterLink)
 that turns user clicks into router navigations.
 It's another of the public directives in the `RouterModule`.
